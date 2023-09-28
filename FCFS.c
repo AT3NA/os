@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-   int n,i,j,bt[20],wt[20],tat[20],avwt=0,avtat=0;
+   int n,i,j,bt[20],wt[20],tat[20],avwt=0.0,avtat=0.0;
     printf("Enter total number of processes(maximum 20):");
     scanf("%d",&n);
     printf("\nEnter Process Burst Time\n");
